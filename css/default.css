@@ -44,7 +44,7 @@ img {
 .card-image {
   object-fit: cover;
   object-position: center;
-  filter: sepia(100%) brightness(35%) hue-rotate(227deg) saturate(382%) contrast(92%);
+  filter: sepia(100%) brightness(40%) hue-rotate(227deg) saturate(482%) contrast(75%);
 }
 
 .card-body {
