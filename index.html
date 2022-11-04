@@ -12,7 +12,11 @@
 </head>
 <body>
   <main class="card">
-    <img src="images/image-header-mobile.jpg" alt="Coworkers in office setting" class="card-image">
+    <picture class="card-picture">
+      <source media="(min-width: 768px)" srcset="images/image-header-desktop.jpg">
+      <img src="images/image-header-mobile.jpg" alt="" aria-hidden="true">
+    </picture>
+    <!--<img src="images/image-header-mobile.jpg" alt="Coworkers in office setting" class="card-image">-->
     <div class="card-body">
       <h1>Get <span class="violet">insights</span> that help your business grow.</h1>
       <p>
